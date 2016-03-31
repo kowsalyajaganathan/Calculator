@@ -11,7 +11,7 @@
 
     <target name="compile">
         <mkdir dir="bin/classes"/>
-        <javac srcdir="src" destdir="bin/classes"  classpathref="classpath"/>
+        <javac srcdir="com" destdir="bin/classes"  classpathref="classpath"/>
     </target>
 
     <target name="jar" depends="compile">
